@@ -4,10 +4,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { View, Text, StyleSheet } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 
-// Import screens
 import HomeScreen from "./index";
 
-// Placeholder Screens
 const DiscoverScreen = () => (
     <View style={styles.screen}><Text>Discover Screen</Text></View>
 );
@@ -18,7 +16,6 @@ const ProfileScreen = () => (
     <View style={styles.screen}><Text>Profile Screen</Text></View>
 );
 
-// Create Bottom Tabs
 const Tab = createBottomTabNavigator();
 
 const BottomTabs = () => {

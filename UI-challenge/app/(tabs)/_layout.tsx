@@ -24,21 +24,21 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="index" // Corresponds to app/(tabs)/index.tsx
+        name="index"
         options={{
           title: "Home",
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="favorites" // Corresponds to app/(tabs)/favorites.tsx
+        name="favorites"
         options={{
           title: "Favorite",
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="heart.fill" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="profile" // Corresponds to app/(tabs)/profile.tsx
+        name="profile"
         options={{
           title: "Profile",
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,

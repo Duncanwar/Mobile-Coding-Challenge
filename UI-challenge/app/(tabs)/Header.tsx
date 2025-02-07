@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
-import Icon from "react-native-vector-icons/Feather"; // Import Feather Icons
+import Icon from "react-native-vector-icons/Feather";
 
 const Header = () => {
     return (

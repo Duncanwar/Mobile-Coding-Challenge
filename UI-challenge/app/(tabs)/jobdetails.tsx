@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocalSearchParams } from "expo-router"; // ✅ Get dynamic params
+import { useLocalSearchParams } from "expo-router";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 
 const jobs = {
@@ -8,8 +8,8 @@ const jobs = {
 };
 
 export default function JobDetails() {
-    const { id } = useLocalSearchParams(); // ✅ Get job ID from URL
-    const job = jobs[id]; // Fetch job details
+    const { id } = useLocalSearchParams();
+    const job = jobs[id];
 
     if (!job) {
         return <Text style={styles.error}>Job Not Found</Text>;

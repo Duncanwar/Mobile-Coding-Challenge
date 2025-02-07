@@ -11,7 +11,7 @@ const jobs = [
         type: "Fulltime",
         remote: "Remote",
         salary: "$7K/Month",
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png', // Replace with actual image
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png',
     },
     {
         id: "2",

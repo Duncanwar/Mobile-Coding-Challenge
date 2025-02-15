@@ -60,7 +60,7 @@ const App = () => {
             <Text>Password:</Text>
             <TextInput value={password} onChangeText={setPassword} secureTextEntry style={{ borderWidth: 1, marginBottom: 10, padding: 8 }} />
             <Button title="Sign Up" onPress={handleSignUp} />
-            <Button title="Login" onPress={handleLogin} />
+            <Button titl e="Login" onPress={handleLogin} />
             {user && <Button title="Fetch Data" onPress={fetchData} />}
             {data && data.map(post => <Text key={post.id}>{post.title}</Text>)}
         </View>
